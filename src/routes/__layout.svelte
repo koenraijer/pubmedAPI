@@ -2,4 +2,7 @@
 	import '../app.css';
 </script>
 
-<slot />
+<main class="max-w-[65ch] mx-auto py-8">
+	<slot />
+</main>
+

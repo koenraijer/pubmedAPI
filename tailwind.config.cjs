@@ -7,7 +7,7 @@ const config = {
 		extend: {}
 	},
 
-	plugins: [typography]
+	plugins: [require('@tailwindcss/typography'), require('daisyui'), require('tailwindcss-fluid-type')],
 };
 
 module.exports = config;
